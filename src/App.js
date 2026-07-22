@@ -9,7 +9,7 @@ const sans = "'Helvetica Neue', Helvetica, Arial, sans-serif";
 
 /* ─── DATA ─── */
 const skills = [
-  { name:"React", cat:"Frontend" }, { name:"Vue.js", cat:"Frontend" },
+  { name:"React", cat:"Frontend" }, { name:"Vue.Js", cat:"Frontend" },
   { name:"TypeScript", cat:"Frontend" }, { name:"JavaScript", cat:"Frontend" },
   { name:"Laravel", cat:"Backend" }, { name:"PHP", cat:"Backend" }, { name:"Node.js", cat:"Backend" },
   { name:"PostgreSQL", cat:"Database" }, { name:"MySQL", cat:"Database" }, { name:"MongoDB", cat:"Database" },
