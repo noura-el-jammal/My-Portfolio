@@ -204,7 +204,7 @@ const HamburgerMenu = ({ open, setOpen, scrollTo, active }) => {
           {links.map(s => (
             <button key={s} onClick={()=>{ scrollTo(s); setOpen(false); }} style={{ background:"none", border:"none", color:active===s?C.accent:C.text, fontSize:"1.5rem", fontWeight:600, cursor:"pointer", fontFamily:"Georgia, serif", textTransform:"capitalize", letterSpacing:"0.05em" }}>{s}</button>
           ))}
-          <a href="/CV_NOURA_EL-JAMMAL_.pdf" download style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.8rem 2rem", background:C.accent, color:"#000", borderRadius:"2px", fontFamily:sans, fontSize:"0.8rem", fontWeight:700, letterSpacing:"0.1em", textTransform:"uppercase", textDecoration:"none" }}>
+          <a href="/CV_NOURA_EL-JAMMAL_ .pdf" download style={{ display:"flex", alignItems:"center", gap:"0.5rem", padding:"0.8rem 2rem", background:C.accent, color:"#000", borderRadius:"2px", fontFamily:sans, fontSize:"0.8rem", fontWeight:700, letterSpacing:"0.1em", textTransform:"uppercase", textDecoration:"none" }}>
             ↓ Download CV
           </a>
         </div>
@@ -283,7 +283,7 @@ export default function Portfolio() {
               >{s}</button>
             ))}
             {/* Download CV — nav */}
-            <a href="/CV_NOURA_EL-JAMMAL_.pdf" download style={{ display:"inline-flex", alignItems:"center", gap:"0.4rem", padding:"0.42rem 1rem", border:`1px solid ${C.accent}55`, background:`${C.accent}11`, color:C.accent, fontSize:"0.7rem", fontWeight:600, letterSpacing:"0.1em", textTransform:"uppercase", fontFamily:sans, borderRadius:"2px", textDecoration:"none", transition:"all 0.25s", opacity:heroVisible?1:0, transitionDelay:"0.75s" }}
+            <a href="/CV_NOURA_EL-JAMMAL_ .pdf" download style={{ display:"inline-flex", alignItems:"center", gap:"0.4rem", padding:"0.42rem 1rem", border:`1px solid ${C.accent}55`, background:`${C.accent}11`, color:C.accent, fontSize:"0.7rem", fontWeight:600, letterSpacing:"0.1em", textTransform:"uppercase", fontFamily:sans, borderRadius:"2px", textDecoration:"none", transition:"all 0.25s", opacity:heroVisible?1:0, transitionDelay:"0.75s" }}
               onMouseEnter={e=>{ e.currentTarget.style.background=C.accent; e.currentTarget.style.color="#000"; e.currentTarget.style.boxShadow=`0 0 18px ${C.accent}55`; }}
               onMouseLeave={e=>{ e.currentTarget.style.background=`${C.accent}11`; e.currentTarget.style.color=C.accent; e.currentTarget.style.boxShadow="none"; }}
             >
@@ -335,7 +335,7 @@ export default function Portfolio() {
             <MagneticBtn primary onClick={()=>scrollTo("projects")} fullWidth={isMobile}>View Projects</MagneticBtn>
             <MagneticBtn onClick={()=>scrollTo("contact")} fullWidth={isMobile}>Get in Touch</MagneticBtn>
             {/* Download CV Button */}
-            <a href="/CV_NOURA_EL-JAMMAL_.pdf" download="CV_Noura_El-Jammal.pdf"
+            <a href="/CV_NOURA_EL-JAMMAL_ .pdf" download="CV_NOURA_EL-JAMMAL_ .pdf"
               style={{ display:"inline-flex", alignItems:"center", justifyContent:"center", gap:"0.5rem", padding:"0.82rem 1.8rem", border:`1px solid ${C.accent}55`, background:`${C.accent}11`, color:C.accent, fontSize:"0.75rem", fontWeight:600, cursor:"pointer", letterSpacing:"0.12em", textTransform:"uppercase", fontFamily:sans, borderRadius:"2px", textDecoration:"none", transition:"all 0.25s", width:isMobile?"100%":"auto" }}
               onMouseEnter={e=>{ e.currentTarget.style.background=C.accent; e.currentTarget.style.color="#000"; e.currentTarget.style.boxShadow=`0 0 25px ${C.accent}55`; }}
               onMouseLeave={e=>{ e.currentTarget.style.background=`${C.accent}11`; e.currentTarget.style.color=C.accent; e.currentTarget.style.boxShadow="none"; }}
