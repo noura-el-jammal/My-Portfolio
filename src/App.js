@@ -517,10 +517,10 @@ export default function Portfolio() {
           </Reveal>
           <div style={{ border:`1px solid ${C.border}` }}>
             {[
-              { icon:"✉",  label:"Email",    value:"nouraeljammal7@gmail.com",                     href:"mailto:nouraeljammal7@gmail.com" },
+              { icon:"✉",  label:"Email",    value:"nouraeljammal2@gmail.com",                     href:"mailto:nouraeljammal2@gmail.com" },
               { icon:"in", label:"LinkedIn", value:"linkedin.com/in/noura-el-jammal-54762034b",    href:"https://www.linkedin.com/in/noura-el-jammal-54762034b" },
               { icon:"⌥",  label:"GitHub",   value:"github.com/noura-el-jammal",                      href:"https://github.com/noura-el-jammal" },
-              { icon:"📞", label:"Phone",    value:"+212 711 879 085",                              href:"tel:+212711879085" },
+              { icon:"📞", label:"Phone",    value:"+971 52 604 4737",                              href:"tel:+97126044737" },
             ].map((item,i,arr)=>(
               <Reveal key={item.label} delay={i*80}>
                 <a href={item.href} target="_blank" rel="noreferrer" style={{ display:"flex", alignItems:"center", gap:"1.2rem", padding:isMobile?"1rem 1.2rem":"1.3rem 1.8rem", borderBottom:i<arr.length-1?`1px solid ${C.border}`:"none", textDecoration:"none", background:C.bg, transition:"all 0.25s" }}
@@ -541,7 +541,7 @@ export default function Portfolio() {
           <Reveal delay={300}>
             <div style={{ marginTop:"2rem", padding:"1.3rem 1.8rem", borderLeft:`2px solid ${C.accent}`, background:C.bg, border:`1px solid ${C.border}`, borderLeftColor:C.accent }}>
               <p style={{ color:C.muted, fontSize:"0.8rem", fontFamily:sans, fontWeight:300, lineHeight:1.9, margin:0 }}>
-                Open to <span style={{ color:C.text }}>full-time positions</span>, <span style={{ color:C.text }}>freelance projects</span>, and <span style={{ color:C.text }}>internships</span>. Based in <span style={{ color:C.text }}>Fez, Morocco</span> · Remote-friendly.
+                Open to <span style={{ color:C.text }}>full-time positions</span>, <span style={{ color:C.text }}>freelance projects</span>, and <span style={{ color:C.text }}>internships</span>. Based in <span style={{ color:C.text }}>Doubaï, Émirats arabes unis</span> · Remote-friendly.
               </p>
             </div>
           </Reveal>
